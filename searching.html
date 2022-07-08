@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Auto searching</h2>
+       <form action="https://fom.in.ua/echo">
+      <div>
+          <label for="type">Auto type</label>
+          <select id="type" name="type">
+            <option value="cars">Cars</option>
+            <option value="trucks">Trucks</option>
+            <option value="buses">Buses</option>
+            <option value="motorcycles">Motorcycles</option>
+          </select>
+         </div>
+      <div>
+          <label for="brand">Car Brand</label>
+          <select id="brand" name="brand">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="opel">Opel</option>
+            <option value="reno">Reno</option>
+          </select>
+      </div>
+      <div>
+         <label for="produce">Producing Country</label>
+         <select id="produce" name="produce">
+           <option value="germany">Germany</option>
+           <option value="uk">UK</option>
+           <option value="usa">USA</option>
+           <option value="france">France</option>
+         </select>
+      </div>  
+      <div>
+          <span>Year of Issue</span> 
+          <input name ="year" type="number" placeholder="from" value="1990" min="1990">
+          <input name ="year" type="number" placeholder="to" value="2022" max="2022">
+      </div>
+      <div>
+        <span>Prse, $</span> 
+        <label for="price1">from</label>
+        <input id="price1" name="price" type="number" placeholder="300" min="300">
+        <label for="price2">to</label>
+        <input id="price2" name="price" type="number" placeholder="300000" max="300000">
+       
+      </div>
+      <div>
+         <label for="fuel">Fuel Tipe</label>
+         <select id="fuel" name="fuel">
+           <option value="disel fuel">Disel fuel</option>
+           <option value="petrol">Petrol</option>
+           <option value="gas">Gas</option>
+           <option value="gaspetrol">Gas, Petrol</option>
+         </select>
+      </div>  
+      <div>
+       <span>Car Condition</span> 
+        <input id="new" name="car" type="checkbox">
+        <label for="new">New</label>
+        <input id="broken" name="car" type="checkbox">
+        <label for="broken">Broken</label>
+        <input id="cleared" name="car" type="checkbox">
+        <label for="cleared">Not cleared</label>
+        <input id="credit" name="car" type="checkbox">
+        <label for="credit">Lizing</label>
+      </div>
+      <div>
+         <span>Transmission</span> 
+         <input id="trans1" name="trans" type="radio">
+         <label for="trans1">Automatic</label>
+         <input id="trans2" name="trans" type="radio">
+         <label for="trans2">Mechanical</label>
+      </div>
+      <div>
+         <label for="colour">Car Colour</label>
+         <input id="colour" name="colour" type="color">
+      </div>
+      <div>
+          <input type="submit" value="Find">
+      </div>
+   
+      </form>
+   <nav>
+    <ul>
+        <li><a href="../index.html">Main Menu</a></li>
+        <li><a href="registration.html">Registration</a></li>
+        <li><a href="autorisation.html">Autorisation</a></li>
+        <li><a href="#">Auto searching</a></li>
+    </ul>
+ </nav>
+</body>
+</html>
