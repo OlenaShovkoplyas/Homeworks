@@ -1,0 +1,361 @@
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;}
+
+.white{background: white;}
+.light-grey{background: #EFEFEF;}
+.grey{background: #FFFFFF;}
+.grey1{color: #FFFFFF;}
+
+.font1 a{
+    font-size: 14px;
+    line-height: 16.41px;
+    line-height: 100%;
+    color: #333333;}
+.font2 a{
+    font-size: 14px;
+    line-height: 18.75px;
+    line-height: 100%;
+    color: #000000;}
+.font3 {
+    font-size: 12px;
+    line-height: 14px;
+    line-height: 100%;
+    vertical-align: top;
+    color: #828282;}
+.font3 a{
+    font-size: 12px;
+    line-height: 14px;
+    line-height: 100%;
+    vertical-align: top;
+    color: #828282;}
+.font4{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19.69px;}
+.font4 p{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19.69px;
+    text-align: center;}
+.font5{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21.09px;
+    vertical-align: top;
+    text-align: left;
+    color: #FFFFFF;}
+
+.site{
+    width: 1920px;
+    height: 3279px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;} 
+
+.top-menu{
+    width: 1920px;
+    height: 50px;}
+.top-menu-1{
+    width: 447px;
+    height: 17px;
+    margin-left: 736px;}
+.top-menu-item {
+    float: left;
+    margin-top: 17px;}
+.top-menu-item a{
+    display: block;
+    padding-right: 30px;}
+
+.beaty{
+    width: 1920px;
+    height: 120px;
+    border-bottom: 1px solid #EFEFEF;}
+.logo img{
+    margin-top: 20px;
+    margin-left: 405px;}
+.phone{
+    width: 127px;
+    height: 19px;
+    margin-left: 515px;
+    margin-top: 50px;
+    vertical-align: top;}
+.button{
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    color: #000000;
+    vertical-align: Top;
+    margin-top: 40px;
+    margin-left: 40px;
+    cursor: pointer;}
+
+.middle-menu{height: 79px;}
+.middle-menu-1{
+    width: 675px;
+    height: 19px;
+    margin-left: 622px;}
+.middle-menu-item{
+    float: left;
+    margin-top: 30px;}
+.middle-menu-item a{
+    font-size: 16px;
+    line-height: 18.75px;
+    display: block;
+    padding-left: 40px;
+    color: #000000;}
+    
+.sale{
+    height: 604px;
+    background: url(./img/chiar1.png);}
+.more{
+    width: 308px;
+    height: 219px;
+    padding-top: 192px;
+    margin-left: 405px;}
+.text1{
+    width: 308px;
+    height: 44px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    text-align: left;
+    vertical-align: top;}
+.text2{
+    width: 308px;
+    height: 35px;
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;}
+.button2{
+    width: 170px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background: transparent;
+    margin-top: 50px;
+    cursor: pointer;}
+.button2 a{
+    vertical-align: top;
+    color: #FFFFFF;}
+
+.goods{
+    height: 1870px;
+    padding-top: 80px;}
+
+.offer{
+    width: 1100px;
+    height: 430px;
+    margin-left: 405px;
+    font-size: 0;}
+.text3{
+    width: 319px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28.31px;
+    vertical-align: top;}
+.offer-1{
+    margin-top: 38px;}
+.box{
+    float: left;
+    width: 255px;
+    height: 363px;
+    vertical-align: top;
+    margin-right: 25px;}
+.box1{margin-right: 0px;}
+.img{
+    margin-top: 25px;
+    margin-left: 65px;}
+.box p{
+    color: #333333;
+    margin-top: 20px;}
+.box div{
+    width: 80px;
+    height: 19px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24.61px;
+    text-align: center;
+    letter-spacing: 5%;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 87px;}
+.button3{
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid #F13C6E;
+    background: #F13C6E;
+    margin-left: 62px;
+    margin-top: 20px;
+    cursor: pointer;}
+.button3 a{
+    vertical-align: top;
+    color: #FFFFFF;}
+
+.shop{
+    margin-top: 100px;
+    font-size: 0;
+    float: left;
+    margin-left: 405px;
+    vertical-align: top;
+    box-sizing: border-box;}    
+.bonus{ 
+    width: 540px;
+    height: 212px;
+    float: left;
+    background-color: #F13C6E;
+    box-sizing: border-box;    }
+.bonus-input{margin-left: 40px;}
+.bonus-input img{
+    float: right; 
+    margin-right: 45px;}
+.bonus1{
+    width: 250px;
+    height: 17px;
+    margin-top: 35px;}
+.bonus2{
+    width: 231px;
+    height: 40px;
+    margin-top: 25px;
+    vertical-align: top;
+    color: #FFFFFF;
+    text-align: left;}
+.email{
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 25px;}
+
+.visit{
+    width: 540px;
+    height: 212px;
+    float: left;
+    background-color: #F13C6E; 
+    margin-left: 30px;
+    box-sizing: border-box;}
+.right-input img{padding-top: 19px;}
+.button4{
+    width: 170px;
+    height: 35px;
+    border: 2px solid #FFFFFF;
+    background: #F13C6E;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;}
+.button4 a{
+    vertical-align: top;
+    color: #FFFFFF;}
+
+.impuls{
+    width: 1100px;
+    height: 357px;
+    font-size: 0;
+    margin-left: 405px;
+    margin-top: 411px;}   
+.impuls-1{float: left;}
+.imuls-border{
+    width: 275px;
+    height: 119px;
+    font-size: 0;
+    border: 1px solid #EFEFEF;}
+.impuls-item img {
+    margin-top: 35px;
+    margin-left: 60px;}
+
+.offer-down{margin-top: 99px;
+    position: absolute;}
+
+.footer{
+    width: 1920px;
+    height: 373px;
+    padding-top: 60px;
+    padding-left: 405px;}
+.footer-box{
+    float: left;
+    width: 255px;
+    height: 253px;
+    margin-right: 30px;}
+.box-text{
+    width: 99px;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    line-height: 141%;
+    vertical-align: top;
+    color: #000000;}
+.footer-box-item a{
+    font-size: 12px;
+    line-height: 28px;
+    line-height: 199%;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+    color: #828282;}
+.box-link{
+    width: 255px;
+    height: 183px;
+    border-top: 1px solid #EFEFEF;
+    padding-top: 25px;}
+
+.network{
+    height: 120px;
+    border-top: 1px solid #EFEFEF;}
+.network-menu{
+    width: 1110px;
+    height: 45px;
+    margin-left: 405px;
+    margin-top: 37px;
+    box-sizing: border-box;
+    float: left;}
+.logo-bottom{float: left;}
+.logo-bottom-item{
+   margin-right: 16px;
+   float: left;}
+.phone1{
+    width: 127px;
+    height: 19px;
+    margin-top: 15px;
+    vertical-align: top;
+    margin-left: 500px;}
+.button-down{
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    vertical-align: Top;
+    margin-left: 40px;
+    cursor: pointer;}
+
+.social{
+    width: 1920px;
+    height: 64px;
+    padding-left: 0;
+    float: left;}
+.best{
+    width: 584px;
+    height: 14px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 405px;}
+.politic{
+    width: 181px;
+    height: 14px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 345px;}
