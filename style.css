@@ -1,0 +1,67 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0;}
+
+.menu-item{
+    width: 120px;
+    height: 50px;
+    background: rgb(45, 43, 43);
+    display: inline-block;
+    border-bottom: 2px solid blue;}
+
+.menu-item-link{
+    display: block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 13px;}
+
+.menu-item-link::after{
+    content: "\2630";
+    margin-left: 15px;}
+
+.link1{text-transform: none;}
+
+.menu-item1{
+    position: relative;
+    font-size: 0;
+    width: 120px;
+    height: 50px;
+    vertical-align: top;
+    background: rgb(45, 43, 43);}
+.menu-inner{
+    position: absolute;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 13px;
+    display: none;}
+
+.menu-item:hover, .menu-item1:hover, .menu-item1-submenu:hover {
+    background: blue;
+    color: white;}
+
+.menu-inner .menu-item, .menu-item:hover .menu-inner{
+    display: block;
+    border: none;}
+
+.menu-item-link1{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 13px;}
+
+.menu-item1-submenu{
+    position: absolute;
+    margin-left: 58px;
+    margin-top: -35px;
+    display: none;}
+
+.menu-item1:hover .menu-item1-submenu { display: inline-block;}
