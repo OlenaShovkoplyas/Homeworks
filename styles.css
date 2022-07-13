@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@400;500&display=swap');
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-size: 0;}
+
+.light-grey{background: #EEEFF1;}
+.blue{background: #34547A;}
+
+.font1 a{
+    font-size: 16px;
+    line-height: 26.25px;
+    line-height: 140%;
+    color: #000000;
+    font-family: Roboto;
+    font-style: 400;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 10%;
+    text-transform: uppercase;}
+.font2{
+    font-family: Roboto;
+    font-style: 500;
+    font-size: 48px;
+    line-height: 78.75px;
+    line-height: 140%;
+    text-align: Left;
+    /* vertical-align: Top; */
+    color: #000000;}
+.font3 {
+    font-family: Roboto;
+    font-style: 400;
+    font-size: 16px;
+    line-height: 26.25px;
+    line-height: 140%;
+    text-align: Left;
+    vertical-align: Top;
+    color: #727272;}
+.font4 a{
+    font-family: Roboto;
+    font-style: 400;
+    font-size: 16px;
+    line-height: 26.25px;
+    line-height: 140%
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    text-transform: uppercase;}
+.font5{
+    text-decoration: h2;
+    font-family: Roboto;
+    font-style: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: Top;
+    color: #000000;}
+
+.top-menu{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 79px;}
+.top-menu-item {float: left;}
+.top-menu-item a{
+    display: block;
+    padding-right: 42px;}
+
+.top-designe{
+    padding-top: 162px;
+    padding-bottom: 141px;}
+.designe{
+    margin: 0 auto;
+    width: 1100px;}
+.lorem{
+    width: 540px;
+    height: 67px;
+    margin-top: 60px;}
+.email{
+    width: 225px;
+    height: 65px;
+    margin-top: 65px;}
+.email a{
+    width: 143px;
+    height: 26px;
+    margin-top: 19px;}
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;}
+.about-me{
+    width: 540px;
+    margin: 0 auto;}
+.center{
+    margin-top: 50px;
+    text-align: center;}
+
+.logo{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 150px;}
+.logo div{
+    width: 1116px;
+    margin: 0 auto;}
+.logo img{
+    margin-right: 45px;
+    float: left;}
+.about-bottom{
+    padding-top: 100px;
+    padding-bottom: 57px;}
+.video{
+    width: 1110px;
+    margin:0 auto;
+    padding-bottom: 100px;}
+.video iframe{  
+    width:  1110px; 
+    height: 600px;}
+
+.footter{
+    padding-bottom: 50px;
+    padding-top: 50px;}
+.name{
+    font-family: Roboto;
+    font-style: 500;
+    font-size: 21px;
+    line-height: 24.61px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: Top;
+    color: #FFFFFF;}
+
+.politic{margin-top: 20px;}
+.politic a{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21.33px;
+    line-height: 140%;
+    text-align: left;
+    vertical-align: Top;
+    color: #FFFFFF;}
+
+
+
+
+
+
+
+
