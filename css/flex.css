@@ -1,30 +1,31 @@
 .flex{
-    display: flex;
-}
+    display: flex;}
+
 .j-c-c{
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
+
 .j-c-b{
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-between;}
+
 .a-i-c{
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
+
 .center{
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center;}
+
+.top-logo{
+    display: flex;
+    justify-content: left;}
+
+.first-form{}
+
 .m-medium{
     margin: 16px;
 }
 .m-t-medium{
-    margin: 16px 0 0 0;
-}
-.top-logo{
-    display: flex;
-    justify-content: left;
-}
+    margin: 16px 0 0 0;}
