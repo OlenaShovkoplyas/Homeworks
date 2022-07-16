@@ -17,6 +17,7 @@ header{
     background: #fff;
     border-bottom: 1px solid #00000077;
 }
+.top-menu{width: 1157px;}
 .header-menu-link{
     display: block;
     padding: 10px;
@@ -37,19 +38,17 @@ header{
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    justify-items: right ;
-}
-.wrap-logo{
-    width: 50%;
-}
+    justify-items: right;}
+
 section{
-    width: 1330px;
+    width: 1290px;
     margin: auto;
 }
 #first{
-    margin-top: 60px;
+    margin-top: 133px;
     padding: 60px 0;
 }
+#second{width: 100%;}
 .first-form{
     width: 445px;
 }
