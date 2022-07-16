@@ -1,9 +1,23 @@
+
+
 *, html, body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box; 
+    text-decoration: none;
     list-style: none;
-    text-decoration: none;}
+    border: none;
+    outline: none;}
+    /* font-size: 0;} */
+
+.font1{
+    font-family: Graphik LC TT;
+    font-weight: Regular;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Left;
+    vertical-align: Top;
+    color: #000000;}
 
 .white{background: rgb(255, 255, 255);}
 section{
@@ -26,6 +40,7 @@ header{
 .top-logo{margin-right: 51px;}
 
 .header-menu-link{
+    display: block;
     margin-right: 42px;
     color: #000;}
 .header-button{
