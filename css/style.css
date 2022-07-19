@@ -92,6 +92,14 @@
     text-align: center;
     vertical-align: top;
     color: #000000;}
+.font9 h3{
+    font-family: Graphik LC TT;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
 
 .white{background: rgb(255, 255, 255);}
 .descktop{
@@ -203,4 +211,26 @@ section{
     width: 160px;
     height: 120px;}
 .box h3, p{margin-top: 21px;}
+
+#sixth{
+    padding-top: 154px;
+    padding-bottom: 217px;}
+#sixth .box1, .box2, .box3{padding-right: 31px;}
+#sixth .box1{margin-top: 75px;}
+#sixth .box1 h3{margin-top: 49px;}
+#sixth .box2{margin-top: 92px;}
+#sixth .box2 h3{margin-top: 67px;}
+#sixth .box3{margin-top: 84px;}
+#sixth .box3 h3{margin-top: 58px;}
+#sixth .box1 p, .box3 p{margin-top: 34px;}
+#sixth .box2 p{margin-top: 29px;}
+#sixth p, a{font-weight: 400;}
+#sixth a{margin-top: 25px;}
+
+#seventh{ 
+    width: 100%;
+    background: #C9E8F2;
+    padding: 53px 75px;}
+.form{width: 895px;}
+
 
