@@ -92,7 +92,7 @@
     text-align: center;
     vertical-align: top;
     color: #000000;}
-.font9 h3{
+.font9 h3, h4{
     font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 30px;
@@ -100,6 +100,31 @@
     text-align: left;
     vertical-align: top;
     color: #000000;}
+.font10 h2{
+    font-family: Graphik LC TT;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font11 h2{
+    font-family: Graphik LC TT;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+.font12 p{
+    font-family: Graphik LC TT;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+
 
 .white{background: rgb(255, 255, 255);}
 .descktop{
@@ -108,10 +133,7 @@
 
 header{
     position: fixed;
-    padding-top: 31px;
-    padding-left:  51px;
-    padding-right: 51px;
-    padding-bottom: 24px;
+    padding: 31px 51px 24px 51px;
     box-sizing: border-box;
     font-size: 0;
     border-bottom: 1px solid #0000004c;}
@@ -146,7 +168,6 @@ section{
     padding: 8px 29px;
     color: #fff;
     border: none;
-    justify-items: right;
     margin-right: 10px;
     margin-top: 50px;
     cursor: pointer;}
@@ -231,6 +252,38 @@ section{
     width: 100%;
     background: #C9E8F2;
     padding: 53px 75px;}
-.form{width: 895px;}
+.form{width: 920px;}
+.font9 h4{font-weight: 400;}
+.form p{margin-top: 23px;}
+.form img{margin-top: 7px;}
 
+#eighth{
+    width: 100%;
+    background: #DABC98;
+    padding: 69px 76px 80px 74px;}
+.eight-form{
+    width: 809px;
+    border-right: 1px solid black;}
+.eight-form h2{
+    width: 461px;
+    margin-left: 67px;}
+.eight img{margin-left: 71px;}
+
+#ninth{
+    padding: 159px 153px 8px 153px;
+    
+    display: block;}
+#ninth h2{
+    margin: 0 auto;
+    width: 791px;}
+#ninth p{
+    margin: 0 auto;
+    width: 539px;}
+#ninth img{margin-top: 25px;}
+#ninth button{
+   margin-top: 32px;
+    width: 193px;}
+#ninth a{
+    vertical-align: cen;
+}
 
