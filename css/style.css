@@ -1,9 +1,29 @@
-
+@font-face {
+    font-family: 'Graphik LC TT';
+    src: url('./fonts/semibold/GraphikLCG-Semibold.eot');
+    src: url('./fonts/semibold/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/semibold/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('./fonts/semibold/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/semibold/GraphikLCG-Semibold.ttf') format('truetype'),
+        url('./fonts/semibold/GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    
+    src: url('./fonts/regular/GraphikLCG-Regular.eot');
+    src: url('./fonts/regular/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/regular/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/regular/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/regular/GraphikLCG-Regular.ttf') format('truetype'),
+        url('./fonts/regular/GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
 
 *, html, body{
     margin: 0px;
     padding: 0px;
-    box-sizing:border-box; 
+    box-sizing: border-box; 
     text-decoration: none;
     list-style: none;
     border: none;
@@ -12,7 +32,7 @@
     
 
 .font1 a{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 15px;
     line-height: 20px;
     text-align: Left;
@@ -34,7 +54,7 @@
     vertical-align: Top;
     color: #000000;}
 .font3 p{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 25px;
     line-height: 35px;
     text-align: left;
@@ -48,7 +68,7 @@
     vertical-align: Top;
     color: #000000;}  
 .font4{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
     text-align: Left;
@@ -77,7 +97,7 @@
     vertical-align: top;
     color: #000000;}
 .font8 p{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
@@ -105,7 +125,7 @@
     vertical-align: top;
     color: #000000;}
 .font12 p{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
@@ -139,30 +159,28 @@
     text-align: left;
     vertical-align: top}
 .font17 a, p{
-    font-weight: 400;
+    font-weight: normal;
     font-size: 15px;
     line-height: 15px;
     text-align: left;
     vertical-align: top;
     color: #000000;}
 
-.font400{font-weight: 400;}
-.font500{font-weight: 500;}
+.font400{font-weight: normal;}
 .font600{font-weight: 600;}
 
 
 .white{background: rgb(255, 255, 255);}
-.light-grey{
-   background: #EEEEEE;}
+.light-grey{background: #EEEEEE;}
+.orange{background: #FF6336;}
+.rose{background: #FF9C7D;}
+
 .descktop{
     width: 1440px;
     margin: 0 auto;}
 
 header{
-    position: fixed;
     padding: 31px 51px 24px 51px;
-    box-sizing: border-box;
-    font-size: 0;
     border-bottom: 1px solid #0000004c;}
 .top-menu{width: 1157px;}
 .top-logo{margin-right: 51px;}
@@ -173,7 +191,6 @@ header{
 .header-button{
     width: 120px;
     height: 45px;
-    background: #FF6336;
     padding: 0 21.5px;
     margin-right: 10px;
     color: #fff;
@@ -182,16 +199,14 @@ header{
     cursor: pointer;}
 
 section{
-    width: 1290px;
+    width: 1330px;
     margin: auto;}
 #first{
-    padding-top: 192px;
+    padding-top: 97px;
     padding-bottom: 35px;}
-
 .buttons{
     width: 160px;
     height: 60px;
-    background: #FF6336;
     color: #fff;
     border: none;
     margin-right: 10px;
@@ -201,7 +216,6 @@ section{
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.504);
     color: #000000;}
-
 .first-form{
     width: 620px;
     margin-top: 32px;
@@ -215,7 +229,7 @@ section{
     margin-right: 12px;}
 
 #second{
-    padding: 98px 95px 94px 95px;
+    padding: 108px 20px 104px 20px;
     margin-top: 137px;
     background: #FF9C7D;}
 .second-form h2{
@@ -225,28 +239,35 @@ section{
     height: 53px;
     margin-top: 70px;}
    
-#third{margin-top: 100px;}
-.third-form{width: 493px;}
+#third{
+    padding: 0 20px;
+    margin-top: 90px;}
+.third-form{width: 491px;}
 .third-form p{
     margin-top: 30px;
     margin-bottom: 30px;}
 .third-form a{font-weight: 600;}   
+.third{width: 520px;}
 
-#fourth{margin-top: 250px;}
-#fourth .first-form{margin-left: 137px;}
-#fourth .first-form h2{width: 379px;}
+#fourth{
+    padding: 0 20px;
+    margin-top: 250px;}
+#fourth a{font-weight: 600;}
+.fourth-form{
+    width: 450px;
+    margin-left: 137px;}
+.fourth-form p{margin-bottom: 36px;}
+.fourth{width: 520px;}
 
 #fifth{
     width: 100%;
-    padding-bottom: 150px;
-    padding-right: 115px;
-    padding-left: 115px;
-    padding-top: 120px;
+    padding: 120px 115px 150px 115px;
     margin-top: 120px;
     background: #FFF8E4;}
 #fifth h2{
     font-weight: 600;
     margin-bottom: 58px;}
+.fifth{width: 520px;}
 .inner{margin-top: 58px;}
 .box{width: 330px;}
 .box img{
@@ -256,10 +277,8 @@ section{
     height: 120px;}
 .box h3, p{margin-top: 21px;}
 
-#sixth{
-    padding-top: 154px;
-    padding-bottom: 217px;}
-#sixth .box1, .box2, .box3{padding-right: 31px;}
+#sixth{padding: 154px 20px 217px 20px;}
+#sixth .box1 p, .box2 p, .box3 p{width: 409px;}
 #sixth .box1{margin-top: 75px;}
 #sixth .box1 h3{margin-top: 49px;}
 #sixth .box2{margin-top: 92px;}
@@ -268,7 +287,7 @@ section{
 #sixth .box3 h3{margin-top: 58px;}
 #sixth .box1 p, .box3 p{margin-top: 34px;}
 #sixth .box2 p{margin-top: 29px;}
-#sixth a{margin-top: 25px;}
+#sixth p{margin-bottom: 25px;}
 
 #seventh{ 
     width: 100%;
@@ -282,7 +301,7 @@ section{
 #eighth{
     width: 100%;
     background: #DABC98;
-    padding: 69px 76px 80px 74px;}
+    padding: 69px 56px 80px 54px;}
 .eight-form{
     width: 809px;
     border-right: 1px solid black;}
