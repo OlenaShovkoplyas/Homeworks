@@ -7,11 +7,11 @@
     text-decoration: none;
     list-style: none;
     border: none;
-    outline: none;}
-    /* font-size: 0;} */
+    outline: none;
+    font-family: Graphik LC TT;}
+    
 
 .font1 a{
-    font-family: Graphik LC TT;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -19,7 +19,6 @@
     vertical-align: Top;
     color: #000000;}
 .font2{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 16px;
     line-height: 45px;
@@ -28,7 +27,6 @@
     color: #000000;}
 
 .font3 h1{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
@@ -36,7 +34,6 @@
     vertical-align: Top;
     color: #000000;}
 .font3 p{
-    font-family: Graphik LC TT;
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
@@ -44,7 +41,6 @@
     vertical-align: Top;
     color: #000000;}
 .font3 h3{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
@@ -52,7 +48,6 @@
     vertical-align: Top;
     color: #000000;}  
 .font4{
-    font-family: Graphik LC TT;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
@@ -61,23 +56,20 @@
     color: #000000;
     margin-top: 25px;}
 .font5 h2{
-    font-family: Graphik LC TT;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     text-align: center;
     vertical-align: top;
     color: #000000;}
 .font6 h2{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
     text-align: left;
     vertical-align: top;
     color: #000000;}
-.font7 p, a{
-    font-family: Graphik LC TT;
+.font7, .font7 p, a{
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -85,7 +77,6 @@
     vertical-align: top;
     color: #000000;}
 .font8 p{
-    font-family: Graphik LC TT;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -93,7 +84,6 @@
     vertical-align: top;
     color: #000000;}
 .font9 h3, h4{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
@@ -101,7 +91,6 @@
     vertical-align: top;
     color: #000000;}
 .font10 h2{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 35px;
     line-height: 50px;
@@ -109,7 +98,6 @@
     vertical-align: top;
     color: #000000;}
 .font11 h2{
-    font-family: Graphik LC TT;
     font-weight: 600;
     font-size: 65px;
     line-height: 75px;
@@ -117,16 +105,55 @@
     vertical-align: top;
     color: #000000;}
 .font12 p{
-    font-family: Graphik LC TT;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
     vertical-align: top;
     color: #000000;}
+.font13 a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    color: #FFFFFF;}
+.font14 a{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    color: #FFFFFF;}
+.font15 h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font16{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    vertical-align: top}
+.font17 a, p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+
+.font400{font-weight: 400;}
+.font500{font-weight: 500;}
+.font600{font-weight: 600;}
 
 
 .white{background: rgb(255, 255, 255);}
+.light-grey{
+   background: #EEEEEE;}
 .descktop{
     width: 1440px;
     margin: 0 auto;}
@@ -165,7 +192,6 @@ section{
     width: 160px;
     height: 60px;
     background: #FF6336;
-    padding: 8px 29px;
     color: #fff;
     border: none;
     margin-right: 10px;
@@ -189,14 +215,11 @@ section{
     margin-right: 12px;}
 
 #second{
-    width: 100%;
-    padding-bottom: 60px;
-    padding-right: 0px;
-    margin-top: 147px;
+    padding: 98px 95px 94px 95px;
+    margin-top: 137px;
     background: #FF9C7D;}
 .second-form h2{
     margin-left: 340px;
-   align-items: center;
     width: 720px;}
 .second-form div{
     height: 53px;
@@ -245,7 +268,6 @@ section{
 #sixth .box3 h3{margin-top: 58px;}
 #sixth .box1 p, .box3 p{margin-top: 34px;}
 #sixth .box2 p{margin-top: 29px;}
-#sixth p, a{font-weight: 400;}
 #sixth a{margin-top: 25px;}
 
 #seventh{ 
@@ -270,9 +292,7 @@ section{
 .eight img{margin-left: 71px;}
 
 #ninth{
-    padding: 159px 153px 8px 153px;
-    
-    display: block;}
+    padding: 159px 153px 8px 153px;}
 #ninth h2{
     margin: 0 auto;
     width: 791px;}
@@ -281,9 +301,49 @@ section{
     width: 539px;}
 #ninth img{margin-top: 25px;}
 #ninth button{
-   margin-top: 32px;
+    margin: 32px 0 162px 415px;
     width: 193px;}
-#ninth a{
-    vertical-align: cen;
-}
+
+#tenth{
+    width: 100%;
+    padding-top: 119px;
+    padding-bottom: 161px;
+    background: #FF9C7D;}
+.tenth{
+    width: 784px;
+    margin: 0 auto;}
+.tenth p{text-align: center;}
+.tenth button{
+    margin-left: 312px;
+    margin-right: 0;
+    margin-top: 54px;
+    background: #000000;}
+
+.down-section{
+    padding-top: 92px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #1D1D1B;}
+
+.down-left-box{width: 370px;}
+.down-left-box img{margin-top: 29px;}
+.down-left-box p{
+    width: 290px;
+    margin-top: 11px;
+    margin-bottom: 15px;}
+
+.down-right-box{
+    padding-top: 5px;
+    width: 850px;}
+.right-box{width: 187px;}
+.box-link{margin-top: 21px;}
+.box-item{margin-top: 15px;}
+
+footer{padding: 48px 75px;}
+.footer-left{width: 411px;}
+.footer-left img{margin-right: 14px;}
+footer p{margin-top: 0;}
+.footer-right{margin-left: 694px;}
+
+
+
 
