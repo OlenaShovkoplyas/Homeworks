@@ -381,25 +381,7 @@ footer p{margin-top: 0;}
         width: 100%;
         height: 2px;
         left: 0;
-        top: 11px;}    }
-
-    @media screen and (max-width: 720px)  {
-        .font3 p{
-            font-size: 35px;
-            line-height: 45px;}
-        .font7 p, a{
-            font-size: 25px;
-            line-height: 30px;
-            vertical-align: center;}
-        .box{height: 491px;}
-        .font16{
-            font-size: 25px;
-            line-height: 35px;}
-        .font17 a{
-            font-size: 20px;
-            line-height: 25px;}  }
-
-    @media screen and (max-width: 500px)  {
+        top: 11px;}   
         #first img{display: none;}
         #first{justify-content: center;}
         .first-form{width: 100%;}
@@ -414,24 +396,86 @@ footer p{margin-top: 0;}
             font-size: 40px;
             line-height: 55px;
             text-align: center;}
-        .font2{ font-size: 20px;}
-        .font7 p, a{
-            font-size: 30px;
-            line-height: 35px;
-            vertical-align: center;}
-            #sixth .font7 p{font-size: 35px;}
-        .box{height: 491px;}
-        .font9 h4{font-size: 40px;}
-        #seventh p{font-size: 25px;}
-        .font12 p{font-size: 30px;}
-        .font13 a{font-size: 20px;}
-        .font14 a{font-size: 20px;}
-        .font16{
-            font-size: 35px;
-            line-height: 35px;}
-        .font17 a{
-            font-size: 25px;
-            line-height: 25px;}    }
+        .font2{ font-size: 20px;} }
+
+@media screen and (max-width: 900px)  {
+    .third-form{width: 100%;}
+    .fourth-form{
+        width: 100%;
+        margin-left: 15px;}
+    #fifth .inner{
+        display: block;
+        justify-content: center;}
+    .inner img{margin-left: 517px;}   
+    .box{width: 100%;}
+    .font3 h3{
+        font-size: 45px;
+        line-height: 50px;}
+    #first .font4{
+        font-size: 30px;
+        line-height: 35px;}
+    .font3 p{
+        font-size: 45px;
+        line-height: 55px;}
+    .font7 p, a{
+        font-size: 40px;
+        line-height: 35px;}
+    .box{height: 491px;}
+    .font9 h4{font-size: 40px;}
+    .font9 p{
+        font-size: 45px;
+        line-height: 55px;}
+    .font10 h2{font-size: 45px;}
+    .font12 p{font-size: 35px;}
+    .font16{font-size: 35px;}
+    .font17 a{
+        font-size: 30px;
+        line-height: 35px;}
+    .right-box{
+        width: 100%;
+        padding-right: 10px;} }
+  
+@media screen and (max-width: 500px)  {
+    #first .font3 p{
+        font-size: 50px;
+        line-height: 65px;
+        text-align: center;}
+    .button-left, .buttons, .header-button, #ninth button{
+        width: 340px;
+        height: 70px;}
+    .font2{font-size: 50px;}
+    #third, #fourth{
+        display: block;
+        margin-bottom: 150px;
+        margin-top: 150px;
+        width: 100%;}
+    #third img, #fourth img{display: none;}
+    .font6 h2, font5 h2{font-size: 60px;}
+    .font7 p, .font7 a, .font3 h3, .font13 a{
+        font-size: 60px;
+        line-height: 75px;}
+    .font3 p{
+        font-size: 55px;
+        line-height: 65px;}
+    #sixth div{
+        width: 100%;
+        display: block;}
+    #sixth .box1 p, .box2 p, .box3 p{
+        width: 100%;
+        margin: auto;
+        text-align: left;}
+    .font9 h3{font-size: 60px;}
+    .font9 h4{
+        font-size: 60px;
+        line-height: 60px;}
+    .font12 p{
+        font-size: 45px;
+        line-height: 60px;}
+    .tenth button {
+        margin-left: 223px;}
+    footer{width: 100%;}
+        }
+        
 
 
 
