@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Graphik LC TT';
+    src: url('./fonts/semibold/GraphikLCG-Semibold.eot');
+    src: url('./fonts/semibold/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/semibold/GraphikLCG-Semibold.woff2') format('woff2'),
+        url('./fonts/semibold/GraphikLCG-Semibold.woff') format('woff'),
+        url('./fonts/semibold/GraphikLCG-Semibold.ttf') format('truetype'),
+        url('./fonts/semibold/GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    
+    src: url('./fonts/regular/GraphikLCG-Regular.eot');
+    src: url('./fonts/regular/GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/regular/GraphikLCG-Regular.woff2') format('woff2'),
+        url('./fonts/regular/GraphikLCG-Regular.woff') format('woff'),
+        url('./fonts/regular/GraphikLCG-Regular.ttf') format('truetype'),
+        url('./fonts/regular/GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;}
+
+*, html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    font-family: Graphik LC TT;}
+    
+
+.font1 a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: Left;
+    vertical-align: Top;
+    color: #000000;}
+.font2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: Center; 
+    vertical-align: Top;
+    color: #000000;}
+
+.font3 h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: left;
+    vertical-align: Top;
+    color: #000000;}
+.font3 p{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    vertical-align: Top;
+    color: #000000;}
+.font3 h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: Top;
+    color: #000000;}  
+.font4{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: Left;
+    vertical-align: Top;
+    color: #000000;
+    margin-top: 25px;}
+.font5 h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+.font6 h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font7, .font7 p, a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font8 p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+.font9 h3, h4{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font10 h2{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font11 h2{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+.font12 p{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: top;
+    color: #000000;}
+.font13 a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    color: #FFFFFF;}
+.font14 a{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    color: #FFFFFF;}
+.font15 h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+.font16{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    vertical-align: top}
+.font17 a, p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: top;
+    color: #000000;}
+
+.font400{font-weight: normal;}
+.font600{font-weight: 600;}
+
+
+.white{background: rgb(255, 255, 255);}
+.light-grey{background: #EEEEEE;}
+.orange{background: #FF6336;}
+.rose{background: #FF9C7D;}
+
+.descktop{
+    width: 1440px;
+    margin: 0 auto;}
+
+header{
+    padding: 31px 51px 24px 51px;
+    border-bottom: 1px solid #0000004c;}
+.top-menu{width: 1157px;}
+.top-logo{margin-right: 51px;}
+.header-menu-link{
+    display: block;
+    margin-right: 42px;
+    color: #0000;}
+.header-button{
+    width: 120px;
+    height: 45px;
+    padding: 0 21.5px;
+    margin-right: 10px;
+    color: #fff;
+    border: none;
+    justify-items: right;
+    cursor: pointer;}
+
+section{
+    width: 1330px;
+    margin: auto;}
+#first{
+    padding-top: 97px;
+    padding-bottom: 35px;}
+.buttons{
+    width: 160px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    margin-top: 50px;
+    cursor: pointer;}
+.button-left{
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.504);
+    color: #000000;}
+.first-form{
+    width: 620px;
+    margin-top: 32px;
+    margin-left: 20px;}
+.first-form p{
+    margin-top: 51px;
+    width: 471px;}
+#first img{
+    margin-top: 54px;
+    padding-right: 18px;
+    margin-right: 12px;}
+
+#second{
+    padding: 108px 20px 104px 20px;
+    margin-top: 137px;
+    background: #FF9C7D;}
+.second-form h2{
+    margin-left: 340px;
+    width: 720px;}
+.second-form div{
+    height: 53px;
+    margin-top: 70px;}
+   
+#third{
+    padding: 0 20px;
+    margin-top: 90px;}
+.third-form{width: 491px;}
+.third-form p{
+    margin-top: 30px;
+    margin-bottom: 30px;}
+.third-form a{font-weight: 600;}   
+.third{width: 520px;}
+
+#fourth{
+    padding: 0 20px;
+    margin-top: 250px;}
+#fourth a{font-weight: 600;}
+.fourth-form{
+    width: 450px;
+    margin-left: 137px;}
+.fourth-form p{margin-bottom: 36px;}
+.fourth{width: 520px;}
+
+#fifth{
+    width: 100%;
+    padding: 120px 115px 150px 115px;
+    margin-top: 120px;
+    background: #FFF8E4;}
+#fifth h2{
+    font-weight: 600;
+    margin-bottom: 58px;}
+.fifth{width: 520px;}
+.inner{margin-top: 58px;}
+.box{width: 330px;}
+.box img{
+    margin-left: 85px;
+    margin-top: 21px;
+    width: 160px;
+    height: 120px;}
+.box h3, p{margin-top: 21px;}
+
+#sixth{padding: 154px 20px 217px 20px;}
+#sixth .box1 p, .box2 p, .box3 p{width: 409px;}
+#sixth .box1{margin-top: 75px;}
+#sixth .box1 h3{margin-top: 49px;}
+#sixth .box2{margin-top: 92px;}
+#sixth .box2 h3{margin-top: 67px;}
+#sixth .box3{margin-top: 84px;}
+#sixth .box3 h3{margin-top: 58px;}
+#sixth .box1 p, .box3 p{margin-top: 34px;}
+#sixth .box2 p{margin-top: 29px;}
+#sixth p{margin-bottom: 25px;}
+
+#seventh{ 
+    width: 100%;
+    background: #C9E8F2;
+    padding: 53px 75px;}
+.form{width: 920px;}
+.font9 h4{font-weight: 400;}
+.form p{margin-top: 23px;}
+.form img{margin-top: 7px;}
+
+#eighth{
+    width: 100%;
+    background: #DABC98;
+    padding: 69px 56px 80px 54px;}
+.eight-form{
+    width: 809px;
+    border-right: 1px solid black;}
+.eight-form h2{
+    width: 461px;
+    margin-left: 67px;}
+.eight img{margin-left: 71px;}
+
+#ninth{
+    padding: 159px 153px 8px 153px;}
+#ninth h2{
+    margin: 0 auto;
+    width: 791px;}
+#ninth p{
+    margin: 0 auto;
+    width: 539px;}
+#ninth img{margin-top: 25px;}
+#ninth button{
+    margin: 32px 0 162px 415px;
+    width: 193px;}
+
+#tenth{
+    width: 100%;
+    padding-top: 119px;
+    padding-bottom: 161px;
+    background: #FF9C7D;}
+.tenth{
+    width: 784px;
+    margin: 0 auto;}
+.tenth p{text-align: center;}
+.tenth button{
+    margin-left: 312px;
+    margin-right: 0;
+    margin-top: 54px;
+    background: #000000;}
+
+.down-section{
+    padding-top: 92px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #1D1D1B;}
+
+.down-left-box{width: 370px;}
+.down-left-box img{margin-top: 29px;}
+.down-left-box p{
+    width: 290px;
+    margin-top: 11px;
+    margin-bottom: 15px;}
+
+.down-right-box{
+    padding-top: 5px;
+    width: 850px;}
+.right-box{width: 187px;}
+.box-link{margin-top: 21px;}
+.box-item{margin-top: 15px;}
+
+footer{padding: 48px 75px;}
+.footer-left{width: 411px;}
+.footer-left img{margin-right: 14px;}
+footer p{margin-top: 0;}
+.footer-right{margin-left: 694px;}
+
+.header-burger{display: none;}
+
+@media screen and (max-width: 1280px)  {
+    .header-menu{display: none;}
+    .header-burger{
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 30px;
+        margin-top: 7px;
+        border-top: 3px solid #000000;
+        border-bottom: 3px solid #000000;}
+    .header-burger span{
+        position: absolute;
+        background-color: #000000;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 11px;}    }
+
+    @media screen and (max-width: 720px)  {
+        .font3 p{
+            font-size: 35px;
+            line-height: 45px;}
+        .font7 p, a{
+            font-size: 25px;
+            line-height: 30px;
+            vertical-align: center;}
+        .box{height: 491px;}
+        .font16{
+            font-size: 25px;
+            line-height: 35px;}
+        .font17 a{
+            font-size: 20px;
+            line-height: 25px;}  }
+
+    @media screen and (max-width: 500px)  {
+        #first img{display: none;}
+        #first{justify-content: center;}
+        .first-form{width: 100%;}
+        .first-form h2{width: 100%;} 
+        .first-form p{width: 100%;}  
+        #first div{justify-content: center;}
+        #first .font4{
+            font-size: 20px;
+            text-align: center;}
+        #first .font3 h1{text-align: center;}
+        #first .font3 p{
+            font-size: 40px;
+            line-height: 55px;
+            text-align: center;}
+        .font2{ font-size: 20px;}
+        .font7 p, a{
+            font-size: 30px;
+            line-height: 35px;
+            vertical-align: center;}
+            #sixth .font7 p{font-size: 35px;}
+        .box{height: 491px;}
+        .font9 h4{font-size: 40px;}
+        #seventh p{font-size: 25px;}
+        .font12 p{font-size: 30px;}
+        .font13 a{font-size: 20px;}
+        .font14 a{font-size: 20px;}
+        .font16{
+            font-size: 35px;
+            line-height: 35px;}
+        .font17 a{
+            font-size: 25px;
+            line-height: 25px;}    }
+
+
+
+
