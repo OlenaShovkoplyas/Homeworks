@@ -1,0 +1,24 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0;}
+
+.svg{
+    width: 100%;
+    height: 100vh;
+    background-color: #93d6e1;}
+
+.svg2{
+    width: 100%;
+    height: 30vh;
+    background-color: #253a97;}
+    
+.svg3{
+    width: 100%;
+    height: 20vh;
+    background-color: #d7d83d;}
+
+circle{fill: white;}
