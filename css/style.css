@@ -293,7 +293,6 @@ section{
     width: 100%;
     background: #C9E8F2;
     padding: 53px 75px;}
-.form{width: 920px;}
 .font9 h4{font-weight: 400;}
 .form p{margin-top: 23px;}
 .form img{margin-top: 7px;}
@@ -361,120 +360,100 @@ footer{padding: 48px 75px;}
 .footer-left{width: 411px;}
 .footer-left img{margin-right: 14px;}
 footer p{margin-top: 0;}
-.footer-right{margin-left: 694px;}
 
 .header-burger{display: none;}
+.right-top, .right-down{display: inline-flex;}
 
-@media screen and (max-width: 1280px)  {
-    .header-menu{display: none;}
+@media screen and (max-width: 1150px)  {
+    .top-menu{display: none;}
+    .header{justify-content: space-between;}
     .header-burger{
         display: block;
         position: relative;
         width: 40px;
         height: 30px;
         margin-top: 7px;
-        border-top: 3px solid #000000;
-        border-bottom: 3px solid #000000;}
+        border-top: 4px solid #000000;
+        border-bottom: 4px solid #000000;}
     .header-burger span{
         position: absolute;
         background-color: #000000;
         width: 100%;
-        height: 2px;
+        height: 4px;
         left: 0;
-        top: 11px;}   
-        #first img{display: none;}
-        #first{justify-content: center;}
-        .first-form{width: 100%;}
-        .first-form h2{width: 100%;} 
-        .first-form p{width: 100%;}  
-        #first div{justify-content: center;}
-        #first .font4{
-            font-size: 20px;
-            text-align: center;}
-        #first .font3 h1{text-align: center;}
-        #first .font3 p{
-            font-size: 40px;
-            line-height: 55px;
-            text-align: center;}
-        .font2{ font-size: 20px;} }
+        top: 10px;}   
+        #first img{display: none;}}
+      
 
-@media screen and (max-width: 900px)  {
-    .third-form{width: 100%;}
-    .fourth-form{
-        width: 100%;
-        margin-left: 15px;}
-    #fifth .inner{
-        display: block;
-        justify-content: center;}
-    .inner img{margin-left: 517px;}   
-    .box{width: 100%;}
-    .font3 h3{
-        font-size: 45px;
-        line-height: 50px;}
-    #first .font4{
-        font-size: 30px;
+@media screen and (max-width: 920px)  {
+    .font3 h1, .font11 h2{font-size: 55px;}
+    .font5 h2, .font6 h2{font-size: 45px;}
+    .font7 p, a{
+        font-size: 25px;
         line-height: 35px;}
     .font3 p{
-        font-size: 45px;
-        line-height: 55px;}
-    .font7 p, a{
-        font-size: 40px;
+        font-size: 25px;
         line-height: 35px;}
-    .box{height: 491px;}
-    .font9 h4{font-size: 40px;}
-    .font9 p{
-        font-size: 45px;
-        line-height: 55px;}
-    .font10 h2{font-size: 45px;}
-    .font12 p{font-size: 35px;}
-    .font16{font-size: 35px;}
-    .font17 a{
-        font-size: 30px;
-        line-height: 35px;}
+    .fifth{width: 100%;}
+    .inner{
+        width: 49%;
+        padding: 0;
+        font-size: 0;
+        display: inline-block;
+        vertical-align: top;}
+    .box{
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;} 
+    .box1, .box2, .box3{
+        width: 30%;}
+    
+    #ninth h2{width: 100%;}
+    #ninth p{width: 100%;} 
+    .tenth{width: 100%;}  
+    .tenth button{margin-left: 45%;}    
+        }
+
+@media screen and (max-width: 700px) {
+    .font3 h1, .font11 h2{font-size: 40px;}
+    .font5 h2, .font6 h2{font-size: 30px;}
+    .font17 a{font-size: 18px;}
+    #third img, #fourth img{display: none;}
+    #third, #fourth {
+        width: 100%;
+        margin-top: 100px;
+        padding: 0 75px;}
+    .fourth-form, .third, .third-form{
+        width: 70%;
+        margin-left: 0;} 
+    #sixth div{
+       display: block;}
+    .box1, .box2, .box3{ width: 70%;}
+    #sixth .box1 p, #sixth .box2 p, #sixth .box3 p{ width: 100%;}
+    .font7 a{font-weight: 600;} 
+    .font17 p{font-size: 20px;}   
+    
+    #tenth{
+        width: 100%;
+        padding-top: 119px;
+        padding-bottom: 161px;
+        background: #FF9C7D;}
+    .right-top, .right-down{display: block}
     .right-box{
         width: 100%;
-        padding-right: 10px;} }
-  
-@media screen and (max-width: 500px)  {
-    #first .font3 p{
-        font-size: 50px;
-        line-height: 65px;
-        text-align: center;}
-    .button-left, .buttons, .header-button, #ninth button{
-        width: 340px;
-        height: 70px;}
-    .font2{font-size: 50px;}
-    #third, #fourth{
-        display: block;
-        margin-bottom: 150px;
-        margin-top: 150px;
-        width: 100%;}
-    #third img, #fourth img{display: none;}
-    .font6 h2, font5 h2{font-size: 60px;}
-    .font7 p, .font7 a, .font3 h3, .font13 a{
-        font-size: 60px;
-        line-height: 75px;}
-    .font3 p{
-        font-size: 55px;
-        line-height: 65px;}
-    #sixth div{
-        width: 100%;
-        display: block;}
-    #sixth .box1 p, .box2 p, .box3 p{
-        width: 100%;
-        margin: auto;
-        text-align: left;}
-    .font9 h3{font-size: 60px;}
-    .font9 h4{
-        font-size: 60px;
-        line-height: 60px;}
-    .font12 p{
-        font-size: 45px;
-        line-height: 60px;}
-    .tenth button {
-        margin-left: 223px;}
-    footer{width: 100%;}
-        }
+        margin-left: 50px;
+        margin-top: 30px;}
+    .font17 a{font-size: 20px;}
+    .footer-left{width: 50%}
+ 
+}
+@media screen and (max-width: 350px) {
+    #second div {width: 85%;}
+    .photo{display: none;}
+    .form{width: 85%;}
+    .eight-form, .footer-right{width: 50%;}
+       
+}       
         
 
 

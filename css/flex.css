@@ -21,4 +21,5 @@
 .top-logo{
     display: flex;
     justify-content: left;}
-
+    
+.j-c-a{justify-content: space-around;}
