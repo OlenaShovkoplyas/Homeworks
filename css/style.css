@@ -171,12 +171,15 @@
 
 
 .white{background: rgb(255, 255, 255);}
+.blue{background: #C9E8F2;}
 .light-grey{background: #EEEEEE;}
 .orange{background: #FF6336;}
+.peach{background: #DABC98;}
 .rose{background: #FF9C7D;}
+.yellow{background: #FFF8E4;}
 
 .descktop{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;}
 
 header{
@@ -199,7 +202,7 @@ header{
     cursor: pointer;}
 
 section{
-    width: 1330px;
+    max-width: 1330px;
     margin: auto;}
 #first{
     padding-top: 97px;
@@ -217,12 +220,12 @@ section{
     border: 1px solid rgba(0, 0, 0, 0.504);
     color: #000000;}
 .first-form{
-    width: 620px;
+    max-width: 620px;
     margin-top: 32px;
     margin-left: 20px;}
 .first-form p{
     margin-top: 51px;
-    width: 471px;}
+    max-width: 471px;}
 #first img{
     margin-top: 54px;
     padding-right: 18px;
@@ -234,7 +237,7 @@ section{
     background: #FF9C7D;}
 .second-form h2{
     margin-left: 340px;
-    width: 720px;}
+    max-width: 720px;}
 .second-form div{
     height: 53px;
     margin-top: 70px;}
@@ -242,12 +245,12 @@ section{
 #third{
     padding: 0 20px;
     margin-top: 90px;}
-.third-form{width: 491px;}
+.third-form{max-width: 491px;}
 .third-form p{
     margin-top: 30px;
     margin-bottom: 30px;}
 .third-form a{font-weight: 600;}   
-.third{width: 520px;}
+.third{max-width: 520px;}
 
 #fourth{
     padding: 0 20px;
@@ -257,17 +260,12 @@ section{
     width: 450px;
     margin-left: 137px;}
 .fourth-form p{margin-bottom: 36px;}
-.fourth{width: 520px;}
+.fourth{max-width: 520px;}
 
-#fifth{
-    width: 100%;
+.fifth{
     padding: 120px 115px 150px 115px;
-    margin-top: 120px;
-    background: #FFF8E4;}
-#fifth h2{
-    font-weight: 600;
-    margin-bottom: 58px;}
-.fifth{width: 520px;}
+    margin-top: 120px;}
+.fifth h2{margin-bottom: 58px;}
 .inner{margin-top: 58px;}
 .box{width: 330px;}
 .box img{
@@ -278,7 +276,7 @@ section{
 .box h3, p{margin-top: 21px;}
 
 #sixth{padding: 154px 20px 217px 20px;}
-#sixth .box1 p, .box2 p, .box3 p{width: 409px;}
+#sixth .box1 p, .box2 p, .box3 p{max-width: 409px;}
 #sixth .box1{margin-top: 75px;}
 #sixth .box1 h3{margin-top: 49px;}
 #sixth .box2{margin-top: 92px;}
@@ -289,20 +287,18 @@ section{
 #sixth .box2 p{margin-top: 29px;}
 #sixth p{margin-bottom: 25px;}
 
-#seventh{ 
+.seventh{
     width: 100%;
-    background: #C9E8F2;
     padding: 53px 75px;}
 .font9 h4{font-weight: 400;}
 .form p{margin-top: 23px;}
 .form img{margin-top: 7px;}
 
-#eighth{
+.eighth{
     width: 100%;
-    background: #DABC98;
     padding: 69px 56px 80px 54px;}
 .eight-form{
-    width: 809px;
+    max-width: 809px;
     border-right: 1px solid black;}
 .eight-form h2{
     width: 461px;
@@ -313,7 +309,7 @@ section{
     padding: 159px 153px 8px 153px;}
 #ninth h2{
     margin: 0 auto;
-    width: 791px;}
+    max-width: 791px;}
 #ninth p{
     margin: 0 auto;
     width: 539px;}
@@ -323,12 +319,11 @@ section{
     width: 193px;}
 
 #tenth{
-    width: 100%;
     padding-top: 119px;
     padding-bottom: 161px;
     background: #FF9C7D;}
 .tenth{
-    width: 784px;
+    max-width: 784px;
     margin: 0 auto;}
 .tenth p{text-align: center;}
 .tenth button{
@@ -337,15 +332,12 @@ section{
     margin-top: 54px;
     background: #000000;}
 
-.down-section{
-    padding-top: 92px;
-    padding-bottom: 95px;
-    border-bottom: 1px solid #1D1D1B;}
+.down-section{padding: 92px 86px 95px 75px;}
 
-.down-left-box{width: 370px;}
+.down-left-box{max-width: 370px;}
 .down-left-box img{margin-top: 29px;}
 .down-left-box p{
-    width: 290px;
+    max-width: 290px;
     margin-top: 11px;
     margin-bottom: 15px;}
 
@@ -356,15 +348,27 @@ section{
 .box-link{margin-top: 21px;}
 .box-item{margin-top: 15px;}
 
-footer{padding: 48px 75px;}
-.footer-left{width: 411px;}
+footer{    
+    max-width: 1330px;
+    margin: 0 auto;
+    padding:0 75px 48px 75px;}
+.footer-inner{
+    padding-top: 48px;
+    border-top: 1px solid #1D1D1B;}
+.footer-left{max-width: 411px;}
 .footer-left img{margin-right: 14px;}
 footer p{margin-top: 0;}
 
 .header-burger{display: none;}
 .right-top, .right-down{display: inline-flex;}
 
-@media screen and (max-width: 1150px)  {
+@media screen and (max-width: 1200px)  {
+    .font3 h1{font-size: 55px;}
+    .font6 h2, .font5 h2{
+        font-size: 40px;
+        line-height: 50px;}
+    .font7 a{font-weight: 600;}
+    .font11 h2{font-size: 50px;}
     .top-menu{display: none;}
     .header{justify-content: space-between;}
     .header-burger{
@@ -382,43 +386,52 @@ footer p{margin-top: 0;}
         height: 4px;
         left: 0;
         top: 10px;}   
-        #first img{display: none;}}
+    #first img{display: none;}
+    .third-form{margin-right: 20px;}
+    .fourth-form{margin-left: 20px;}
+    #sixth .box1, .box2, .box3{margin-right: 10px;} 
+    .eighth{display: block;}
+    .eight-form{
+        border: none;
+        justify-content: center;}
+    .eight{
+        margin-top: 30px;
+        justify-content: center;}
+    #ninth img{display: none;}
+    #ninth .buttons{margin-left: 30%;}
+    .down-right-box{
+        display: block;
+        margin-left: 20px;}
+    .right-down{margin-top: 20px;}
+    }
+
       
 
-@media screen and (max-width: 920px)  {
-    .font3 h1, .font11 h2{font-size: 55px;}
-    .font5 h2, .font6 h2{font-size: 45px;}
-    .font7 p, a{
-        font-size: 25px;
-        line-height: 35px;}
+@media screen and (max-width: 960px)  {
+
+    .font3 h1,.font11 h2{font-size: 30px;}
     .font3 p{
-        font-size: 25px;
-        line-height: 35px;}
-    .fifth{width: 100%;}
+        font-size: 20px;
+        line-height: 30px;}
+    .font5 h2, .font6 h2{font-size: 25px;}
+    .font5 h2{
+        margin-left: 0;
+        text-align: center;}
+    .font7 a{font-weight: 600;}
+
     .inner{
         width: 49%;
         padding: 0;
+        margin: 0;
         font-size: 0;
         display: inline-block;
         vertical-align: top;}
     .box{
         margin: 0 auto;
         display: block;
-        box-sizing: border-box;} 
-    .box1, .box2, .box3{
-        width: 30%;}
+        box-sizing: border-box;
+        padding-right: 10px;} 
     
-    #ninth h2{width: 100%;}
-    #ninth p{width: 100%;} 
-    .tenth{width: 100%;}  
-    .tenth button{margin-left: 45%;}    
-        }
-
-@media screen and (max-width: 700px) {
-    .font3 h1, .font11 h2{font-size: 40px;}
-    .font5 h2, .font6 h2{font-size: 30px;}
-    .font17 a{font-size: 18px;}
-    #third img, #fourth img{display: none;}
     #third, #fourth {
         width: 100%;
         margin-top: 100px;
@@ -426,36 +439,38 @@ footer p{margin-top: 0;}
     .fourth-form, .third, .third-form{
         width: 70%;
         margin-left: 0;} 
-    #sixth div{
-       display: block;}
-    .box1, .box2, .box3{ width: 70%;}
+    #third img, #fourth img{display: none;}
+
+    #sixth div{display: block;}
+    .box1, .box2, .box3{ width: 70%;} 
     #sixth .box1 p, #sixth .box2 p, #sixth .box3 p{ width: 100%;}
-    .font7 a{font-weight: 600;} 
-    .font17 p{font-size: 20px;}   
+
+    #ninth h2, p{width: 100%;}
+
+    .tenth button{margin-left: 45%;}  
+
+   
+
     
-    #tenth{
-        width: 100%;
-        padding-top: 119px;
-        padding-bottom: 161px;
-        background: #FF9C7D;}
-    .right-top, .right-down{display: block}
-    .right-box{
-        width: 100%;
-        margin-left: 50px;
-        margin-top: 30px;}
-    .font17 a{font-size: 20px;}
-    .footer-left{width: 50%}
- 
 }
-@media screen and (max-width: 350px) {
+
+@media screen and (max-width: 760px){ 
+    .right-top, .right-down{display: block}
+
+.right-box{
+    padding-left: 0;
+    margin-left: 50px;
+    margin-top: 30px;}}
+
+
+
+@media screen and (max-width: 550px) {
     #second div {width: 85%;}
     .photo{display: none;}
     .form{width: 85%;}
     .eight-form, .footer-right{width: 50%;}
-    #ninth img{display: none;}
-       
-}       
-        
+    .box1, .box2, .box3{width: 30%;}       
+}              
 
 
 
