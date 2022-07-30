@@ -362,7 +362,7 @@ footer p{margin-top: 0;}
 .header-burger{display: none;}
 .right-top, .right-down{display: inline-flex;}
 
-@media screen and (max-width: 1200px)  {
+/* @media screen and (max-width: 1200px)  {
     .font3 h1{font-size: 55px;}
     .font6 h2, .font5 h2{
         font-size: 40px;
@@ -469,8 +469,8 @@ footer p{margin-top: 0;}
     .photo{display: none;}
     .form{width: 85%;}
     .eight-form, .footer-right{width: 50%;}
-    .box1, .box2, .box3{width: 30%;}       
-}              
+    .box1, .box2, .box3{width: 30%;} 
+}               */
 
 
 
