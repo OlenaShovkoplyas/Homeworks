@@ -1,48 +1,57 @@
-*, html, body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box; 
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    outline: none;
-    font-size: 0;}
+*,
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  font-size: 0;}
 
-.wheels{
-    display: flex;
-    width: 257px;
-    justify-content: space-between;
-    margin-top: -36px;}
+.wheels {
+  display: flex;
+  width: 257px;
+  justify-content: space-between;
+  margin-top: -36px;}
 
-.car{
-    position: absolute;
-    padding-top: 20;
-    transform: scale(-1, 1);
-    margin-left: 0;
-    animation: Car 10s infinite;
-    }
+.car {
+  position: absolute;
+  padding-top: 300;
+  transform: scale(-1, 1);
+  margin-left: 0;
+  animation: Car 10s infinite;}
 
-.light{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: red;
-    margin-left: 66px;
-    margin-bottom: -11px;         
-    }
+.light {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 66px;
+  margin-bottom: -11px;
+  animation: lightColor 1s infinite;}
+
+.wheel, .wheel-right{
+    transform: rotate(180deg);
+    animation: turnWheel 1s infinite;}
 
 
 
-@keyframes  Car {
-    0%{left: 0;}
-   
-   100%{
-    left: 100%;
-   }
+@keyframes Car {
+  0% {left: 0;}
+
+  100% {left: 100%;}
 }
 
+@keyframes lightColor {
+  0% {background-color: red;}
 
-        
-    
+  100% {background-color: blue;}
+}
 
-
+@keyframes turnWheel {
+    0% {transform: rotate(0deg);}
+  
+    100% {transform: rotate(180deg);}
+  }
