@@ -178,9 +178,7 @@
 .rose{background: #FF9C7D;}
 .yellow{background: #FFF8E4;}
 
-.descktop{
-    max-width: 1440px;
-    margin: 0 auto;}
+.descktop{width: 100%;}
 
 header{
     padding: 31px 51px 24px 51px;
@@ -257,7 +255,7 @@ section{
     margin-top: 250px;}
 #fourth a{font-weight: 600;}
 .fourth-form{
-    width: 450px;
+    max-width: 450px;
     margin-left: 137px;}
 .fourth-form p{margin-bottom: 36px;}
 .fourth{max-width: 520px;}
@@ -289,19 +287,20 @@ section{
 
 .seventh{
     width: 100%;
-    padding: 53px 75px;}
+    padding: 53px 20px;}
 .font9 h4{font-weight: 400;}
 .form p{margin-top: 23px;}
 .form img{margin-top: 7px;}
 
 .eighth{
     width: 100%;
-    padding: 69px 56px 80px 54px;}
+    padding: 69px 20px 80px 20px;}
 .eight-form{
     max-width: 809px;
+    padding-right: 125px;
     border-right: 1px solid black;}
 .eight-form h2{
-    width: 461px;
+    max-width: 461px;
     margin-left: 67px;}
 .eight img{margin-left: 71px;}
 
@@ -312,18 +311,17 @@ section{
     max-width: 791px;}
 #ninth p{
     margin: 0 auto;
-    width: 539px;}
+    max-width: 539px;}
 #ninth img{margin-top: 25px;}
 #ninth button{
     margin: 32px 0 162px 415px;
     width: 193px;}
 
-#tenth{
-    padding-top: 119px;
-    padding-bottom: 161px;
-    background: #FF9C7D;}
 .tenth{
     max-width: 784px;
+    padding-top: 119px;
+    padding-bottom: 161px;
+    
     margin: 0 auto;}
 .tenth p{text-align: center;}
 .tenth button{
@@ -343,7 +341,7 @@ section{
 
 .down-right-box{
     padding-top: 5px;
-    width: 850px;}
+    max-width: 850px;}
 .right-box{width: 187px;}
 .box-link{margin-top: 21px;}
 .box-item{margin-top: 15px;}
@@ -362,7 +360,7 @@ footer p{margin-top: 0;}
 .header-burger{display: none;}
 .right-top, .right-down{display: inline-flex;}
 
-/* @media screen and (max-width: 1200px)  {
+@media screen and (max-width: 1200px)  {
     .font3 h1{font-size: 55px;}
     .font6 h2, .font5 h2{
         font-size: 40px;
@@ -387,8 +385,12 @@ footer p{margin-top: 0;}
         left: 0;
         top: 10px;}   
     #first img{display: none;}
-    .third-form{margin-right: 20px;}
-    .fourth-form{margin-left: 20px;}
+    .third-form{
+        margin-right: 50px;
+        margin-left: 20px;}
+    .fourth-form{
+        margin-left: 50px;
+        }
     #sixth .box1, .box2, .box3{margin-right: 10px;} 
     .eighth{display: block;}
     .eight-form{
@@ -398,7 +400,7 @@ footer p{margin-top: 0;}
         margin-top: 30px;
         justify-content: center;}
     #ninth img{display: none;}
-    #ninth .buttons{margin-left: 30%;}
+    #ninth .buttons{margin-left: 40%;}
     .down-right-box{
         display: block;
         margin-left: 20px;}
@@ -447,30 +449,59 @@ footer p{margin-top: 0;}
 
     #ninth h2, p{width: 100%;}
 
-    .tenth button{margin-left: 45%;}  
-
-   
-
-    
+    .tenth button{margin-left: 40%;} 
+ 
 }
 
-@media screen and (max-width: 760px){ 
+@media screen and (max-width: 800px){ 
+    #second div{flex-wrap: wrap;}
+    .fifth{
+        display: block;
+        padding: 90px 0;}
+    .inner{
+        display: block;
+        margin: 0 auto;}
     .right-top, .right-down{display: block}
-
-.right-box{
-    padding-left: 0;
-    margin-left: 50px;
-    margin-top: 30px;}}
-
-
-
-@media screen and (max-width: 550px) {
-    #second div {width: 85%;}
+    #sixth img{display: none;}
+    #sixth{
+        padding-top: 90px;
+        padding-bottom: 90px;}
     .photo{display: none;}
-    .form{width: 85%;}
-    .eight-form, .footer-right{width: 50%;}
-    .box1, .box2, .box3{width: 30%;} 
-}               */
+    
+   .eighth{width: 100%;}
+    .eight-form h2{
+        width: 100%;
+        margin: 0;
+        text-align: center;}
+    #ninth{padding: 90px 50px;}
+    #ninth button{margin: 32px 0;}
+    .font15 h3{
+        font-size: 20px;
+        line-height: 25px;} 
+    .right-box{
+        padding-left: 0;
+        margin-left: 30px;
+         margin-top: 20px;}
+
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .box img{display: none;}
+    .font9 h3, .font3 h3, .font9 h4, .font10 h2, .font11 h2{
+        font-size: 20px;
+        line-height: 25px;}
+    .font7 p, .font3 p, .font7 a, .font12 p{font-size: 16px;}
+    .inner{width: 100%;}
+    .eight-form img{display: none;}
+    .eight{
+        display: block;
+        margin: 0 auto;}
+    .eighth div{margin-top: 20px;}
+    #ninth .buttons, .tenth button{margin-left: 30%;}
+   
+}               
 
 
 
