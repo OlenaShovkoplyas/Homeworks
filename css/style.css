@@ -28,6 +28,7 @@
     list-style: none;
     border: none;
     outline: none;
+    font-size: 0;
     font-family: Graphik LC TT;}
     
 
@@ -265,7 +266,7 @@ section{
     margin-top: 120px;}
 .fifth h2{margin-bottom: 58px;}
 .inner{margin-top: 58px;}
-.box{width: 330px;}
+.box{max-width: 330px;}
 .box img{
     margin-left: 85px;
     margin-top: 21px;
@@ -360,8 +361,10 @@ footer p{margin-top: 0;}
 .header-burger{display: none;}
 .right-top, .right-down{display: inline-flex;}
 
+
 @media screen and (max-width: 1200px)  {
-    .font3 h1{font-size: 55px;}
+    .font3 h1{
+        font-size: 55px;}
     .font6 h2, .font5 h2{
         font-size: 40px;
         line-height: 50px;}
@@ -388,9 +391,7 @@ footer p{margin-top: 0;}
     .third-form{
         margin-right: 50px;
         margin-left: 20px;}
-    .fourth-form{
-        margin-left: 50px;
-        }
+    .fourth-form{margin-left: 50px;}
     #sixth .box1, .box2, .box3{margin-right: 10px;} 
     .eighth{display: block;}
     .eight-form{
@@ -404,6 +405,7 @@ footer p{margin-top: 0;}
     .down-right-box{
         display: block;
         margin-left: 20px;}
+    .down-section{flex-wrap: wrap;}
     .right-down{margin-top: 20px;}
     }
 
@@ -411,11 +413,15 @@ footer p{margin-top: 0;}
 
 @media screen and (max-width: 960px)  {
 
-    .font3 h1,.font11 h2{font-size: 30px;}
+    .font3 h1,.font11 h2{
+        font-size: 30px;
+        line-height: 35px;}
     .font3 p{
         font-size: 20px;
         line-height: 30px;}
-    .font5 h2, .font6 h2{font-size: 25px;}
+    .font5 h2, .font6 h2{
+        font-size: 25px;
+        line-height: 30px;}
     .font5 h2{
         margin-left: 0;
         text-align: center;}
@@ -446,7 +452,7 @@ footer p{margin-top: 0;}
     #sixth div{display: block;}
     .box1, .box2, .box3{ width: 70%;} 
     #sixth .box1 p, #sixth .box2 p, #sixth .box3 p{ width: 100%;}
-
+    .eight-form{padding-right: 0;}
     #ninth h2, p{width: 100%;}
 
     .tenth button{margin-left: 40%;} 
@@ -455,13 +461,14 @@ footer p{margin-top: 0;}
 
 @media screen and (max-width: 800px){ 
     #second div{flex-wrap: wrap;}
+    .second-form img{margin-right: 15px;}
     .fifth{
         display: block;
         padding: 90px 0;}
     .inner{
         display: block;
         margin: 0 auto;}
-    .right-top, .right-down{display: block}
+   
     #sixth img{display: none;}
     #sixth{
         padding-top: 90px;
@@ -480,19 +487,21 @@ footer p{margin-top: 0;}
         line-height: 25px;} 
     .right-box{
         padding-left: 0;
-        margin-left: 30px;
-         margin-top: 20px;}
+        margin-top: 20px;}   
 
 }
 
 
 
 @media screen and (max-width: 650px) {
+    
     .box img{display: none;}
     .font9 h3, .font3 h3, .font9 h4, .font10 h2, .font11 h2{
         font-size: 20px;
         line-height: 25px;}
-    .font7 p, .font3 p, .font7 a, .font12 p{font-size: 16px;}
+    .font7 p, .font3 p, .font7 a, .font12 p{
+        font-size: 16px;
+        line-height: 18px;}
     .inner{width: 100%;}
     .eight-form img{display: none;}
     .eight{
@@ -501,7 +510,18 @@ footer p{margin-top: 0;}
     .eighth div{margin-top: 20px;}
     #ninth .buttons, .tenth button{margin-left: 30%;}
    
-}               
+}  
+
+@media screen and (max-width: 450px){
+    .first-form p{padding-right: 10px;}
+    .right-top, .right-down{display: block}
+    .down-left-box img{display: none;}
+    .footer-left{display: block;}
+}
+
+@media screen and (max-width: 350px){
+    .first-form div{flex-wrap: wrap;} 
+}
 
 
 
