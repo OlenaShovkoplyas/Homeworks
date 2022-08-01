@@ -28,15 +28,10 @@
     border-radius: 50%;
     background-color: red;
     margin-left: 66px;
-    margin-bottom: -11px;       
+    margin-bottom: -11px;         
     }
 
-.light{
-    transition: blue;
-    transform: 1s;
-   
-    animation: Car infinite; 
-    }
+
 
 @keyframes  Car {
     0%{left: 0;}
