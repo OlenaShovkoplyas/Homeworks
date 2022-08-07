@@ -1,0 +1,27 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0;}
+
+body{ background: $base-color;}
+.wrap{
+    width: 50%;
+    background: red;
+    .box{
+        width: $default-size;
+        height: $default-size;
+        background: $black-color;
+    &:hover{ background: green;}
+        }
+    // Запросы
+    @media screen and (max-width: $ls-screen) {width: 100%;}
+    @media screen and (max-width: $lx-screen) {background: orange;}
+}
+p{
+    @include button-base(12px, center);
+    
+}
+
