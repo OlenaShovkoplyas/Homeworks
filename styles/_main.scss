@@ -14,7 +14,7 @@ body{ background: $base-color;}
         width: $default-size;
         height: $default-size;
         background: $black-color;
-    &:hover{ background: green;}
+        &:hover{ background: green;}
         }
     // Запросы
     @media screen and (max-width: $ls-screen) {width: 100%;}
@@ -22,6 +22,7 @@ body{ background: $base-color;}
 }
 p{
     @include button-base(12px, center);
+    color: white;
     
 }
 
