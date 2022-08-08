@@ -3,25 +3,60 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    text-decoration: none;
-    font-size: 0;}
+    text-decoration: none;}
 
-body{ background: $base-color;}
-.wrap{
-    width: 50%;
-    background: red;
-    .box{
-        width: $default-size;
-        height: $default-size;
-        background: $black-color;
-    &:hover{ background: green;}
-        }
-    // Запросы
-    @media screen and (max-width: $ls-screen) {width: 100%;}
-    @media screen and (max-width: $lx-screen) {background: orange;}
+// .navbar{
+
+// }
+.orange{color: #fc6744;}
+.btn{
+    width: 149px;
+    height: 55px;
+    border-radius: 2px;
+    border: 3.54px solid #170f1c;}
+.card{
+    width: 373px;
+    height: 389px;}
+
+
+
+.card-body{
+    .card-title{
+        text-align: center;}
+    .btn{
+        width: 238px;
+        height: 55px;
+        border-radius: 27px;
+        background-color: #ff5c36;
+        border: 0;}
+    .btn-flex{
+        display: flex;
+        justify-content: center;}
 }
-p{
-    @include button-base(12px, center);
+.working-process h5, h1, p{
+  
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    }
+
+.orange-blocks{
+    display: flex;
+    justify-content: space-around;
+    height: 359px;
+    width: 360px;
+    background-color: #ff5c36;
+    margin-top: 22px;
+    margin-right: 29px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+   
     
 }
+       
 
+    
