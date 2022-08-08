@@ -40,7 +40,11 @@
 .cards{
     display: flex;
     justify-content: space-around;
+    
     }
+.card{
+    filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
+}
 
 .orange-blocks{
     display: flex;
