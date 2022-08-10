@@ -28,7 +28,7 @@
         border-radius: 2px;
         border: 3.54px solid #170f1c8e;}
     .card{
-        width: 373px;
+        max-width: 373px;
         border-radius: 0;
         margin-top: 109px;
         filter: drop-shadow(0 0 28.5px rgba(20,20,21,0.2));
@@ -121,6 +121,8 @@
     padding: 0;}
 .bottom-inner{padding-bottom: 18px;}
 .bottom-inner img{margin-right: 18px;}
+.container .featured-block:hover{filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));}
+
 
 //Clients Said //
 .reviews{
@@ -144,9 +146,9 @@
     background-color: #ff5c36;
     color: #ffffff;}
 .cards-inner{padding-top: 50px;}
-.inner-feedback{
+.inner-feedback{ 
     position: relative;
-    width: 537px;
+    max-width: 537px;
     height: 272x;
     margin: auto;
     border: 1px solid rgba(0, 0, 0, 0.162);
@@ -189,7 +191,8 @@ footer{
     padding-top: 15px;}
 .network-icon:hover{
     background-color: #ff5c36;
-    filter: drop-shadow(0 0 11.5px rgba(20,20,21,0.29));
-}
+    filter: drop-shadow(0 0 11.5px rgba(20,20,21,0.29));}
+
+
 
 

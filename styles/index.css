@@ -64,7 +64,7 @@
   border: 3.54px solid rgba(23, 15, 28, 0.5568627451);
 }
 .header .card {
-  width: 373px;
+  max-width: 373px;
   border-radius: 0;
   margin-top: 109px;
   filter: drop-shadow(0 0 28.5px rgba(20, 20, 21, 0.2));
@@ -209,6 +209,10 @@
   margin-right: 18px;
 }
 
+.container .featured-block:hover {
+  filter: drop-shadow(1.042px 5.909px 8px rgba(20, 20, 21, 0.08));
+}
+
 .reviews {
   margin-top: 83px;
   padding-bottom: 143px;
@@ -243,7 +247,7 @@
 
 .inner-feedback {
   position: relative;
-  width: 537px;
+  max-width: 537px;
   height: 272x;
   margin: auto;
   border: 1px solid rgba(0, 0, 0, 0.162);
