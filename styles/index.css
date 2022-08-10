@@ -63,6 +63,7 @@ a, h1, h4, h5, p {
 h5, p, a {
   font-size: 16px;
   line-height: 25px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
 }
@@ -71,7 +72,8 @@ h5, p, a {
   font-size: 20px;
   letter-spacing: 0px;
   line-height: 42px;
-  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -79,7 +81,8 @@ h1 {
   font-family: "Open Sans";
   font-size: 50px;
   line-height: 46px;
-  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -125,7 +128,8 @@ a {
   font-family: "Open Sans";
   font-size: 38px;
   line-height: 35px;
-  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   color: rgba(23, 15, 28, 0.8117647059);
   text-align: center;
 }
@@ -187,6 +191,11 @@ a {
 .container .card-text {
   padding: 0 35px 65px 35px;
 }
+@media screen and (max-width: 1400px) {
+  .container .color-card {
+    margin: 40px 20px 20px 0;
+  }
+}
 
 .featured-works {
   padding-bottom: 4px;
@@ -236,6 +245,11 @@ a {
   filter: drop-shadow(0 0 18px rgba(20, 20, 21, 0.2));
 }
 
+@media screen and (max-width: 580px) {
+  .apple-watch {
+    display: none;
+  }
+}
 .side-blocks, .middle-block {
   height: 440px;
   filter: drop-shadow(0 0 24.5px rgba(20, 20, 21, 0.11));
@@ -264,7 +278,11 @@ a {
 }
 
 .bottom-inner img {
-  margin-right: 18px;
+  padding-right: 18px;
+}
+
+.bottom-inner div {
+  margin-left: 20px;
 }
 
 .container .featured-block:hover {
@@ -274,25 +292,30 @@ a {
 .designe h5 {
   font-size: 30px;
   line-height: 40px;
-  font-weight: 600;
-  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 .designe p {
   font-size: 16px;
   line-height: 20px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  text-align: center;
 }
 
 .list p {
   font-size: 11px;
   line-height: 20px;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  text-align: center;
   margin-top: 11px;
 }
 
+@media screen and (max-width: 990px) {
+  .side-blocks, .middle-block {
+    margin-bottom: 54px;
+  }
+}
 .reviews {
   margin-top: 83px;
   padding-bottom: 143px;
@@ -302,6 +325,11 @@ a {
   height: 420px;
 }
 
+@media screen and (max-width: 1200px) {
+  .reviews {
+    padding: 0 20px;
+  }
+}
 .carousel-dark .carousel-indicators [data-bs-target] {
   background-color: #ff5c36;
 }
@@ -334,7 +362,6 @@ a {
   filter: drop-shadow(0 0 13.5px rgba(20, 20, 21, 0.09));
 }
 .inner-feedback h5 {
-  text-align: center;
   padding-top: 23px;
   padding-bottom: 37px;
 }
@@ -364,12 +391,19 @@ a {
   padding-bottom: 98px;
 }
 
+@media screen and (max-width: 917px) {
+  .logos div {
+    margin-top: 10px;
+  }
+}
 footer {
   padding-top: 50px;
   padding-bottom: 54px;
 }
-footer .card-body .btn-card {
+footer .card-body {
+  max-width: 250px;
   margin: 0 auto;
+  padding-bottom: 49px;
 }
 
 .network-icon {
