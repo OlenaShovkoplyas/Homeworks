@@ -60,15 +60,15 @@
 .container{
     margin-top: 108px;
     padding-bottom: 285px;
-    .color-card{
-        width: 18rem;
-        filter: drop-shadow(0 0 17.5px rgba(20,20,21,0.21))}
+    .color-card{width: 18rem;}
+    .color-card:hover{filter: drop-shadow(0 0 17.5px rgba(20,20,21,0.21));}
     .btn-know-more{
         width: 228px;
         height: 55px;
         border-radius: 27px;
         border: none;
         filter: drop-shadow(1.042px 5.909px 7px rgba(20,20,21,0.09));}
+    .btn-know-more:hover{background-color: #ffff;}
     img{margin-top: 53px;}
     .card-title{margin: 23 0px;}
     .card-text{padding-bottom: 65px;}        
@@ -91,29 +91,105 @@
 .disigne-block{padding-top: 136px;}
 .item{
     margin-top: 7px;
-    border-radius: 2px;
-    filter: drop-shadow(0 0 18px rgba(20,20,21,0.2)); }
+    border-radius: 2px;}
 .disigne-block p, h4{
     text-align: left;
     max-width: 504px;}
 .disigne-block span{padding-bottom: 9px;}
 .disigne-block h4{padding-bottom: 18px;}
 .disigne-block .btn{margin-top: 40px;}
+.item:hover{filter: drop-shadow(0 0 18px rgba(20,20,21,0.2));}
 
 
 // Team Chinen& Skills//
 .side-blocks, .middle-block{
-    height: 445px;
+    height: 440px;
     filter: drop-shadow(0 0 24.5px rgba(20,20,21,0.11));
     border: none;}
+
 .side-btn{
     width: 262px;
     height: 95px;
     border-radius: 2px;
+    }
+.side-btn:hover{
+    background-color: #fff3f0;
+    border: none;
     filter: drop-shadow(1.042px 5.909px 8px rgba(20,20,21,0.08));}
 .middle-block img, p{
     margin: 0;
     padding: 0;}
 .bottom-inner{padding-bottom: 18px;}
+.bottom-inner img{margin-right: 18px;}
 
-    
+//Clients Said //
+.reviews{
+    margin-top: 83px;
+    padding-bottom: 143px;}
+#carouselExampleDark{
+    height: 420px;
+   }
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {background-color: #ff5c36;}
+.cursore{
+   padding-top: 9px;
+    width: 50px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #ffff;
+    color: black;
+    filter: drop-shadow(0.521px 2.954px 7px rgba(20,20,21,0.28));}
+.cursore:hover{
+    background-color: #ff5c36;
+    color: #ffffff;}
+.cards-inner{padding-top: 50px;}
+.inner-feedback{
+    position: relative;
+    width: 537px;
+    height: 272x;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.162);
+    filter: drop-shadow(0 0 13.5px rgba(20,20,21,0.09));
+    h5{
+        text-align: center;
+        padding-top: 23px;
+        padding-bottom: 37px;} }
+.inner-feedback p{
+    padding: 0 49px 17px 49px;
+    margin-top: 96px;}
+.stars{margin-left: 43%;}
+
+
+// Logos //
+.logos{
+    padding-top: 78px;
+    padding-bottom: 98px;}
+
+
+//Footer//
+footer{
+    padding-top: 50px;
+    padding-bottom: 54px;
+.card-body .btn-card{margin: 0 auto;}
+}
+.network-icon{
+    width: 53px;
+    height: 53px;
+    border-radius: 26px;
+    background-color: #d3d3d3;
+    margin-left: 16px;
+    margin-right: 0px;
+     
+}
+.network img{justify-items: center;}
+.footer-inner{justify-content: center;}
+.ltd p{
+    text-align: left;
+    padding-top: 15px;}
+.network-icon:hover{
+    background-color: #ff5c36;
+    filter: drop-shadow(0 0 11.5px rgba(20,20,21,0.29));
+}
+
+
